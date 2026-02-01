@@ -20,8 +20,10 @@ Tech Stack
 Results
 1. Continuous Motion (Velocity Profile)
 The robot executes a path: Home $\to$ Intermediate $\to$ Final.The plot below demonstrates non-zero velocity at the intermediate waypoint ($t=2.5s$), proving the robot did not stop.
-2. Action Client Execution
+![Continuous Motion Graph](docs/images/continuous_trajectory.png)
+3. Action Client Execution
 The same trajectory reproduced using the FollowJointTrajectory Action Client, confirming robust control integration.
+![Action Client Graph](docs/images/action_client_motion.png)
 
 Installation & Usage
 
