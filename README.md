@@ -5,6 +5,9 @@ This project implements a complete motion control system for a Universal Robots 
 
 The core challenge involved generating a continuous quintic spline trajectory through multiple waypoints without stopping, overcoming the standard "stop-and-go" motion profile of default trajectory generators.
 
+### Simulation Demo
+![UR10 Motion Demo](docs/images/demo_motion.gif)
+
 Key Features
 - Inverse Kinematics: Solves for joint angles using a RigidBodyTree model to reach specific Cartesian poses .
 - Continuous Trajectory Execution: Custom velocity vector generation to ensure smooth, non-stop motion through intermediate waypoints .
